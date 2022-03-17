@@ -113,9 +113,24 @@ nav.sticky .menu-btn {
   border: 1px solid white;
   background-color: white;
   border-radius: 0.6rem;
+  transition: all 0.3s ease;
 
 }
-
+.secondary-btn:hover{
+  color: #2962FF;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+.border-btn:hover{
+  color: white;
+  background-color: #2962FF;
+  transition: all 0.5s ease;
+}
+.slider__btn:hover{
+  color: white;
+  background-color: #2962FF;
+  transition: all 0.5s ease;
+}
 .secondary-btn {
   color: white;
   border-radius: 0.6rem;
@@ -487,7 +502,6 @@ figcaption span {
   z-index: 10;
   border: none;
   background: rgba(255, 255, 255, 0.7);
-  font-family: inherit;
   color: #2962ff;
   ;
   border-radius: 50%;
@@ -560,7 +574,6 @@ figcaption span {
   right: 1.2rem;
   line-height: 1;
   font-size: 11rem;
-  font-family: inherit;
   color: #D7E0FB;
   z-index: -1;
 }
@@ -1037,6 +1050,9 @@ justify-content: center;
     width: 300px;
     margin: 0 auto;
     font-size: 0.9rem;
+  }
+  .hero-img-2{
+    display: none;
   }
 
   .image-right-side {
